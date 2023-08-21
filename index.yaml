@@ -3,7 +3,7 @@ entries:
   devtron-operator:
   - apiVersion: v2
     appVersion: 0.0.2
-    created: "2023-08-21T07:53:21.0404568Z"
+    created: "2023-08-21T09:39:18.97927872Z"
     dependencies:
     - condition: argo-cd.enabled
       name: argo-cd
@@ -15,7 +15,7 @@ entries:
       version: 0.x.x
     description: Chart to configure and install Devtron. Devtron is a Kubernetes Orchestration
       system.
-    digest: f2ade52ee4477853592b0898af63fb727c2c8ace8d9673ec44345e5d46d10902
+    digest: 4df76950b84c27663660ba18f5a9ba7b8b87af9a9a38351e67dd50c16fcd940e
     home: https://devtron.ai
     icon: https://s3-ap-southeast-1.amazonaws.com/devtron.ai/images/devtron-sqr-logo.png
     keywords:
@@ -35,38 +35,4 @@ entries:
     urls:
     - devtron-operator-0.0.2.tgz
     version: 0.0.2
-  - apiVersion: v2
-    appVersion: 0.0.1
-    created: "2023-08-21T07:53:21.023335464Z"
-    dependencies:
-    - condition: argo-cd.enabled
-      name: argo-cd
-      repository: https://argoproj.github.io/argo-helm
-      version: 5.9.1
-    - condition: security.enabled
-      name: security
-      repository: https://helm.devtron.ai
-      version: 0.x.x
-    description: Chart to configure and install Devtron. Devtron is a Kubernetes Orchestration
-      system.
-    digest: 8b32cc0fb3e0b8f5f9ebe5f986fb761a83a36127414ba2c9bc0d162eff9246ee
-    home: https://devtron.ai
-    icon: https://s3-ap-southeast-1.amazonaws.com/devtron.ai/images/devtron-sqr-logo.png
-    keywords:
-    - Devtron
-    - Kubernetes
-    - Orchestration
-    - K8s
-    - Deployment
-    - argocd
-    - Hyperion
-    maintainers:
-    - email: prakarsh@devtron.ai
-      name: Prakarsh
-    name: devtron-operator
-    sources:
-    - https://github.com/devtron-labs/charts
-    urls:
-    - devtron-operator-0.0.1.tgz
-    version: 0.0.1
-generated: "2023-08-21T07:53:20.997253909Z"
+generated: "2023-08-21T09:39:18.963149086Z"

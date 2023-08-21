@@ -33,6 +33,6 @@ entries:
     sources:
     - https://github.com/devtron-labs/charts
     urls:
-    - devtron-operator-0.0.1.tgz
+    - https://github.com/kamal-devtron/chart-test/raw/main/devtron-operator-0.0.1.tgz
     version: 0.0.1
 generated: "2023-08-21T04:41:17.937568101Z"
